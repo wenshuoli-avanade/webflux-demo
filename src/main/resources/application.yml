@@ -1,0 +1,5 @@
+# upstream server url
+product_base_url: http://localhost:18092
+# change application port
+server:
+  port: 18091

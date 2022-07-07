@@ -1,0 +1,19 @@
+{
+  "productId":"p0003",
+  "content":"Lunch meal",
+  "experienceDetail":"Enjoy great lunch meal servered in the castle",
+  "inventories":[
+    {
+      "inventoryId":"p0003i0001",
+      "booked":true
+    },
+    {
+      "inventoryId":"p0003i0002",
+      "booked":true
+    },
+    {
+      "inventoryId":"p0003i0003",
+      "booked":true
+    }
+  ]
+}

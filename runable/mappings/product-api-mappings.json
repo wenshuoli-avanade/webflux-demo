@@ -1,0 +1,44 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/products"
+            },
+            "response": {
+                "status": 200,
+                "bodyFileName":"/all_products_response_200.json"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/product/p0003"
+            },
+            "response": {
+                "status": 200,
+                "bodyFileName":"single_product_response_200.json"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/product/p0003/inventory/i0001"
+            },
+            "response": {
+                "status": 200,
+                "bodyFileName":"single_product_response_200.json"
+            }
+        },
+        {
+            "request": {
+                "method": "POST",
+                "url": "/product/p0003/inventory/i0001"
+            },
+            "response": {
+                "status": 200,
+                "bodyFileName":"order_product_by_inventoryId_response_200.json"
+            }
+        }
+    ]
+}

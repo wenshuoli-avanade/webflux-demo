@@ -1,0 +1,55 @@
+[
+  {
+    "productId":"p0001",
+    "content":"Circus show",
+    "experienceDetail":"2 hours great show proformed by the world famous circus",
+    "inventories":[
+      {
+        "inventoryId":"p0001i0001",
+        "booked":true
+      },
+      {
+        "inventoryId":"p0001i0002",
+        "booked":false
+      },
+      {
+        "inventoryId":"p0001i0003",
+        "booked":false
+      }
+    ]
+  },
+  {
+    "productId":"p0002",
+    "content":"Costume change",
+    "experienceDetail":"Provide costume change and makeup to the make customer looks like a character in the Fairy Tales",
+    "inventories":[
+      {
+        "inventoryId":"p0002i0001",
+        "booked":true
+      },
+      {
+        "inventoryId":"p0002i0002",
+        "booked":false
+      }
+    ]
+  },
+  {
+    "productId":"p0003",
+    "content":"Lunch meal",
+    "experienceDetail":"Enjoy great lunch meal servered in the castle",
+    "inventories":[
+      {
+        "inventoryId":"p0003i0001",
+        "booked":true
+      },
+      {
+        "inventoryId":"p0003i0002",
+        "booked":true
+      },
+      {
+        "inventoryId":"p0003i0003",
+        "booked":true
+      }
+    ]
+  }
+]
